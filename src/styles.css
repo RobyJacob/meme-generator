@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+
+.main {
+    background: #E5E5E5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    width: 100%;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 37px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+}
+
+.header-img {
+    height: 100%;
+    margin-right: 6px;
+}
+
+.header-title {
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    margin-right: auto;
+}
+
+.header-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: blue; */
+    padding: 36px;
+    width: 100%;
+}
+
+.form-textfields {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+    margin-bottom: 15px;
+}
+
+.form-text {
+    width: 230px;
+    height: 35px;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    text-indent: 15px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #0D0D0D;
+}
+
+.form-button {
+    width: 477px;
+    height: 40px;
+    background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+    border-radius: 5px;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.meme {
+    display: flex;
+    border-radius: 2px;
+    width: 477px;
+    height: 268px;
+    border: 1px solid #D5D4D8;
+    margin-bottom: 55px;
+    margin-top: 36px;
+    /* background: green; */
+}
+
+.meme-img {
+    width: 100%;
+    height: 100%;
+}
